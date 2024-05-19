@@ -22,8 +22,11 @@ class HomePage extends StatelessWidget {
       appBar:AppBar(
         title: const Text('Register'),
         ),
-      body: TextButton (onPressed: () => {
-      },child: const Text('register'),),
+      body: TextButton (
+        onPressed: () => {
+        },
+        child: const Text('register'),
+        ),
     );
   }
 }
