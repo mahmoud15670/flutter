@@ -46,8 +46,12 @@ class _HomePageState extends State<HomePage> {
         ),
       body: Column(
         children: [
-			TextField(),
-			TextField(),
+			TextField(
+				controller: _email,
+			),
+			TextField(
+				controller: _password,
+			),
 			TextButton (
 				onPressed: () async {
 				},
