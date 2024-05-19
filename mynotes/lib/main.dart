@@ -24,11 +24,13 @@ class HomePage extends StatelessWidget {
         ),
       body: Column(
         children: [
-          TextButton (
-            onPressed: () async {
-            },
-            child: const Text('register'),
-            ),
+			TextField(),
+			TextField(),
+			TextButton (
+				onPressed: () async {
+				},
+				child: const Text('register'),
+				),
         ],
       ),
     );
