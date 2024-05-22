@@ -48,6 +48,9 @@ class _HomePageState extends State<HomePage> {
         children: [
 			TextField(
 				controller: _email,
+        enableSuggestions: false,
+        autocorrect: false,
+        keyboardType: TextInputType.emailAddress,
         decoration: const InputDecoration (
           hintText: 'Enter your email here'
         ),
@@ -55,6 +58,8 @@ class _HomePageState extends State<HomePage> {
 			TextField(
 				controller: _password,
         obscureText: true,
+        enableSuggestions: false,
+        autocorrect: false,
         decoration: const InputDecoration (
           hintText: 'Enter your password here'
         ),
