@@ -54,6 +54,7 @@ class _HomePageState extends State<HomePage> {
 			),
 			TextField(
 				controller: _password,
+        obscureText: true,
         decoration: const InputDecoration (
           hintText: 'Enter your password here'
         ),
